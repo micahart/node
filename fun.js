@@ -2,8 +2,9 @@ console.log('hello, world');
 console.log('you are big and wide and ready to explore!');
 m = 'mica';
 h = 'hart';
-console.log(m,h);
 age = 13
+console.log(m,h);
+
 
 console.log(m,h, 'is', age, 'years old');
 console.log(process.argv);
@@ -27,13 +28,13 @@ if (age >= 50) {
 };
 
 if (age <= 18 && age > 5) {
-  console.log('They are hopfully in school.');
+  console.log('They are hopfully in gradeschool.');
 
   if (yearsLeftOfSchool === 1) {
-    console.log('They have', yearsLeftOfSchool,'year left of school.');
+    console.log('They have', yearsLeftOfSchool,'year left of gradeschool.');
   } else {
-    console.log('They have', yearsLeftOfSchool,'years left of school.');
+    console.log('They have', yearsLeftOfSchool,'years left of gradeschool.');
   }
 } else {
-  console.log('They are probably not in school.');
+  console.log('They are probably not in gradeschool.');
 }
